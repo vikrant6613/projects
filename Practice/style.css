@@ -1,0 +1,153 @@
+body{
+   background-color: yellow;
+    }
+
+.container{
+    width: auto;
+    height: 150px;
+    margin: 10px;    
+    background-image: linear-gradient(to left, tomato, orange);
+}
+
+h1{
+    color: black;
+    margin: 10px;
+    font-style: italic;
+    line-height: 2rem;
+    font-family: 'Kaushan+Script';
+    /*text-shadow: 2px 2px 1px white; */
+}
+
+h2{
+    color: black;
+    margin: 10px;
+    font-style: italic;
+    line-height: 2rem;
+    font-family: 'Lobster';
+    /*text-shadow: 2px 2px 1px white; */
+}
+
+h3{
+    color: black;
+    margin: 10px;
+    font-style: italic;
+    line-height: 2rem;
+    font-family: 'Satisfy&display=swap';
+    /*text-shadow: 2px 2px 1px white; */
+}
+
+
+#circle{
+    background-color: darkblue;
+    font-size: 40px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+    display: block;
+    
+}
+
+.borderImg{
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+ul li {
+    
+    color: red;
+    font-size: 20px;
+}
+
+
+ul > li{
+    color: blueviolet;
+    font-size: 20px; 
+}
+
+/* [id="foo"]{
+    color: azure;
+}
+
+div h1{
+    color: antiquewhite;
+}
+
+
+html body div.container h1#foo{
+    
+    color: red;
+}
+*/
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.formatting{
+    font-size: 25px;
+}
+
+.padding{
+    
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.row::after{ 
+    display: block;
+    clear: both;
+    content: "";
+} 
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    border: 2px solid red;
+    padding: 5px;
+    margin: 1px;
+    float: left;
+}
+
+
+
+
+
+
+
+
